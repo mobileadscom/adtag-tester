@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ad Tag Tester</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="console.css" >
+	<script src="console.js"></script>
+</head>
+
+<body>
+<div id ="Header"> 
+   <a href="http://www.mobileads.com/" target="_blank" style="text-decoration:none;">
+   <img src="http://d2wq251ql2e9x9.cloudfront.net/images/mobile-ads/logo.png" style="vertical-align: middle;"/> 
+   </a>
+   <div id="htitle"> AD TAG TESTER </div> 
+</div>
+<div class="">
+	<div id = "AdTagSection" class="col-md-6 col-sm-6 col-xs-12">
+		<h3>Insert your ad tag here</h3>
+		<textarea id = "AdTag"></textarea>
+		<div style="padding-right: 3px;">
+		  <button id = "Render" class="render">RENDER</button>	
+		  <button id= "clearAdTag" class="clear">CLEAR</button>
+		</div>
+	</div>
+    
+	
+
+	<div id = "ConsoleSecion" class="col-md-5 col-sm-6 col-xs-12">
+	<div class="hidden-sm hidden-xs" id="right-arrow">
+		<img src='images/right-arrow.png' />
+	</div>
+	<div style="display: inline-block;width:100%;">
+		<h3>Tracker Console</h3>
+		    <div id = "ConsoleOutput">
+		    </div>
+		<div style="padding-right: 9px;">
+		  <button id = "Clear" class="clear">CLEAR</button>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+</html>
